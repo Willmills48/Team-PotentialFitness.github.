@@ -1,3 +1,48 @@
+#Team Potential Fitness App - Formal Outline Report
+I. Project Description
+App Name: Team Potential Fitness App
+Overview: A fitness app designed to empower users by tracking their workouts, progress, and fitness goals. It provides personalized programs, sets, and exercises with a user-friendly interface.
+Goal: To help individuals achieve their fitness potential by offering custom workout routines and monitoring progress over time.
+II. Problem Addressing
+Identified Problem:
+People struggle to stay motivated and organized in their fitness journey. Many existing fitness apps are either too complicated or lack personalized training options.
+Solution:
+Team Potential Fitness App offers a simple, structured way to create personalized workout programs, track progress, and provide reminders, helping users stay on course.
+III. Platform
+Platform:
+- Android
+- Development Environment: Android Studio 2024.1.2.12-windows
+Reason for Choice:
+Android has a large user base and provides easy distribution through the Google Play Store. Android Studio supports seamless development with rich features.
+IV. Front/Back End Support
+Front-end:
+- Android UI components (XML-based layouts / Jetpack Compose)
+- Navigation Bar, Sidebar, Dashboard Overview
+
+Back-end:
+- Data Management: Local SQLite database for user data and fitness tracking
+- Dependency Injection: Hilt for managing dependencies
+- Logcat and debugging for real-time error tracking
+V. Functionality
+1. User Registration & Login: Allows users to create accounts and log in.
+2. Workout Tracking: Records workout sets, repetitions, and exercises.
+3. Progress Overview Dashboard: Displays achievements and milestones.
+4. Reminders: Sends alerts for upcoming workouts.
+5. Offline Mode: Users can log workouts without an internet connection.
+VI. Design (Wireframes)
+Wireframes Overview:
+1. Login Screen: Simple user authentication interface.
+2. Dashboard Screen: Displays current fitness stats and goals.
+3. Workout Log Screen: Allows users to input exercises and sets.
+4. Settings Screen: Customization options (reminders, account management).
+VII. GitHub Integration
+GitHub Repository Overview:
+The entire project, including code files, changelogs, and README documentation, will be maintained in the GitHub repository.
+
+1. Changelog: Version history of the app, detailing changes and updates.
+2. README File: Contains a summary of the app, setup instructions, and usage details.
+3. Wiki: A detailed Wiki page documenting the app’s progress and updates.
+
 # Team-PotentialFitness.github.
  1 change: 1 addition & 0 deletions1  
 app/.gitignore
